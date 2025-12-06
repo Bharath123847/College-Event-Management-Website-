@@ -3,3 +3,5 @@ This website is based on HTML, CSS, &amp; JavaScript. The code is used in Blogge
 
 here i used for my college https://vidyuth-2k25-eee-biet.blogspot.com/
 As a electrical and electronics student with minimum coding skill with the help of Ai , created this Web
+
+https://impulse2k25ateeebiet.blogspot.com/ 
