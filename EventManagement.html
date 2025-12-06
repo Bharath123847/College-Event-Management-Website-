@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html lang='en' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+  <meta charset='UTF-8'/>
+  <meta content='width=device-width, initial-scale=1.0' name='viewport'/>
+  <title>VIDYUTH 2025</title>
+
+  <!-- Blogger Skin (CSS) Tag -->
+  <b:skin><![CDATA[
+    body {
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(135deg, #1e1e2f, #2b2b3c);
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+    header {
+      text-align: center;
+      background-color: #ff6f61;
+      color: white;
+      padding: 50px;
+    }
+  header h1 {
+  font-size: 3rem;
+  animation: 
+    shake 0.5s ease-in-out infinite,
+    text-pulse 2s ease-in-out infinite;
+}
+    header h2 {
+      font-size: 1.2rem;
+      margin: 10px 0;
+    }
+    .event-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 40px 20px;
+    }
+    .event-card {
+  width: 280px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+      padding-bottom: 20px;
+      border: 2px solid rgba(255, 255, 255, 0.3);
+      position: relative;
+      overflow: hidden;
+    }
+    .event-card:hover,
+.event-card.pointer {
+  transform: scale(1.1) translateY(-10px);
+  box-shadow: 0px 12px 30px rgba(0, 255, 255, 0.7);
+  border-color: rgba(0, 255, 255, 0.8);
+}
+    .event-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 15px 15px 0 0;
+    }
+    .event-card h3 {
+      padding: 20px;
+      font-size: 1.5rem;
+      color: white;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+      transition: transform 0.4s ease;
+    }
+    .event-card p {
+      padding: 0 20px 20px;
+      font-size: 1rem;
+      color: #f1f1f1;
+      transition: transform 0.4s ease;
+    }
+   .event-card:hover h3, .event-card:hover p,
+.event-card.in-view h3, .event-card.in-view p {
+  transform: scale(1.1);
+}
+    .btn {
+      display: block;
+      padding: 10px;
+      margin: 10px auto;
+      text-align: center;
+      background-color: #ff5722;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .btn.register {
+      background-color: #4caf50;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #333;
+      color: white;
+      margin-top: 50px;
+    }
+    .modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.8);
+      justify-content: center;
+      align-items: center;
+    }
+    .modal-content {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      width: 90%;
+      max-width: 600px;
+      overflow-y: auto;
+      max-height: 80%;
+      position: relative;
+    }
+    .close-btn {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      font-size: 20px;
+      color: #333;
+      cursor: pointer;
+    }
+/* ... (at the end of your existing CSS) ... */
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+  100% { transform: translateX(0); }
+}
+/* ... (at the end of your existing CSS) ... */
+
+@keyframes font-style-change {
+  0% {
+    font-family: 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+  }
+  25% {
+    font-family: 'Courier New', monospace;
+    font-style: italic;
+    font-weight: bold;
+  }
+  50% {
+    font-family: 'Times New Roman', serif;
+    font-style: normal;
+    font-weight: normal;
+  }
+  75% {
+    font-family: 'Georgia', serif;
+    font-style: italic;
+    font-weight: bold;
+  }
+  100% {
+    font-family: 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+  }
+}
+@keyframes text-pulse {
+  0% {
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
+  }
+  50% {
+    text-shadow: 0 0 20px rgba(255, 255, 255, 1);
+  }
+  100% {
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
+  }
+}
+  ]]></b:skin>
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+
+    <h1>VIDYUTH 2025</h1>
+    <h3>Bapiji Institute Of Engineering And Technology , Davanagere</h3>
+     <h2>Organized by Department of Electrical and Electronics Engineering</h2>
+        <h4 style='display: inline-block; margin: 15px 5px;'>Deekshith T P (7760276428)</h4>
+    <h4 style='display: inline-block; margin: 5px 35px;'>Bharath H (7676034755)</h4>
+        <h4 style='display: inline-block; margin: 5px 35px;'>Deeksha L S (9449097687)</h4>
+
+        <h4 style='display: inline-block;margin: 5px 35px;'>Jeevan B P (9731643766)</h4>
+            <h4 style='display: inline-block; margin: 5px 35px;'>Shaheer Husain (7760627130)</h4>
+             <h4 style='display: inline-block; margin: 5px 35px;'>Pavanchandu . M (6362570080)</h4>
+    <h4 style='display: inline-block; margin: 5px 35px;'>Uttham .H.K (7795078841)</h4><h4 style='display:inline-block ; margin: 5px 35px;'>Yashoda.R.G (6361687932)</h4><h4 style='display:inline-block ; margin: 5px 35px;'> Nakshatra .N.K (9036048770)</h4>
+
+
+    
+
+    
+    
+  </header>
+
+  
+  <!-- Event List Section -->
+  <b:section class='event-list' id='event-list' showaddelement='yes'/>
+
+  <!-- Modal for Event Details -->
+  <div class='modal' id='event-modal'>
+    <div class='modal-content'>
+      <span class='close-btn' id='close-modal'>&#215;</span>
+      <div id='event-details'/>
+      <a class='btn register' href='#' id='register-link' target='_blank'>Register Now</a>
+    </div>
+  </div>
+
+  <footer>&#169; VIDYUTH 2025</footer>
+ 
+
+  <!-- Script -->
+  <script>
+    const eventsData = {
+    
+      &quot;event-1&quot;: {
+        title: &quot;Bird Photography&quot;,
+        image: &quot;https://t4.ftcdn.net/jpg/13/74/95/59/240_F_1374955926_aC3IDPMw9y1ddXxYJD6dOZhWRRkmhftL.jpg&quot;,
+        details: &quot;<p>Entry Fee: &#8377;150</p><h3>Rules &amp; Instructions:</h3><ul><li>Participants must click photos (GPS camera) within the college campus only</li><li>Each participant should create a short documentary (2&#8211;5 minutes)based on their captured photos</li><li>Both digital copies and printed reports must be submitted for evaluation.</li><li>Editing should be minimal &#8212; originality counts the most!</li><li>Judging criteria: Creativity, clarity, storytelling, and presentation quality.</li><li>Let your lens tell the story of nature around you!</li><h3>Coordinaters:</h3><li>Deekshith T.P (7760276428)</li><li>Bharath H (7676034755)</li><li>Pavanchandu M (6362570080)</li><li>Yoshadha R G (6361687932)</li><li>Nimetha (6362783482)</li><li>Kiran (8147147246)</li></ul>&quot;,
+        registerLink: &quot;https://forms.gle/EJDoBUFL75yiumfo8&quot;
+      },
+      &quot;event-2&quot;: {
+        title: &quot;Treasure Hunt&quot;,
+        image: &quot;https://t4.ftcdn.net/jpg/16/27/84/83/240_F_1627848381_2aAlQd2GxUz8y8mdVCSVxsMwXPXFvSSI.jpg&quot;,
+    details: &quot;<p>Entry Fee: &#8377;250</p><h3>Rules &amp; Instructions:</h3><ul><li>Each team must have 4 to 6 members.</li><li>The objective is to find all clues and reach the final treasure within the allotted time</li><li>Clues will be placed at different locations, and each clue leads to the next</li><li>Teams must collect all clues to be eligible to win</li><li> All team members must stay together throughout the event.</li><li>No external help (vehicles or others) is allowed unless specifically permitted.</li> <li>.Do not tamper with or remove clues meant for other teams.</li><li> .The team that solves all clues correctly and finds the treasure first within the time limit will be declared the winner</li><h3>Coordinaters:</h3><li>Deeksha L S (9449097687)</li><li>Chaitra K (9113881103)</li><li>Prajwal S M (8217607844)</li><li>R Abhishek (6360408426)</li><li>Nanditha M (8073019990)</li><li>Punith (7975248837)</li><li>Nanditha K T (6363007116)</li><li>Sagar (9844233379)</li><li>Sumith C (8050491543)</li><li>Chimayi (8431330736)</li></ul>&quot;,
+        registerLink: &quot;https://forms.gle/EJDoBUFL75yiumfo8&quot;
+      },
+    &quot;event-3&quot;: {
+        title: &quot;Paintaing&quot;,
+        image: &quot;https://t4.ftcdn.net/jpg/04/48/77/29/240_F_448772999_4KvKOwVaIEAtBPWdsDT39xX7Zyk0kTld.jpg&quot;,
+    details: &quot;<p>Entry Fee: &#8377;150</p><h3>Rules &amp; Instructions:</h3><ul><li>This is an individual event; team participation is not allowed.</li><li>.The topic will be given at the venue</li><li>Drawing sheet will be provided by the organizers</li><li>.Participants must bring their own painting materials (colors, brushes, palette, pencils, etc.).</li><li>.Participants are allowed to refer to their mobile phones for reference images related to the topic.</li><li>Borrowing materials or taking external help from others is not permitted.</li> <li>All artwork must be completed within the allotted time.</li><li>The artwork must be original and created only during the competition.</li><li>Any form of tracing or copying directly from digital screens is not allowed.</li><li>Maintain cleanliness and discipline throughout the event.</li><li>Judges&#8217; decision will be final and binding.</li><h3>Coordinaters:</h3><li>Naveen Kumar(8431598769)</li><li>Keerti (6362884414)</li><li>Apoorva M G (9380336685)</li><LI>Punith B J (96866916944)</LI><li>Spurthy (8431508346)</li><li>Tejashwini C (9353556205)</li><li>Nishath Anjum (9535773730)</li></ul>&quot;,
+        registerLink: &quot;https://forms.gle/EJDoBUFL75yiumfo8&quot;
+      },
+   &quot;event-4&quot;: {
+        title: &quot;FREE FIRE&quot;,
+        image: &quot;https://as1.ftcdn.net/v2/jpg/03/96/41/30/1000_F_396413002_hSF4gccxtyvmZsOKuLkg6RekI3Y87Snf.jpg&quot;,
+    details: &quot;<p>Entry Fee: &#8377;250</p><h3>Rules &amp; Instructions:</h3><ul><li>Each team consists of 4 registered members. All players must report to the venue on time &#8212; matches will begin exactly as scheduled, no delays accepted.</li><li>A total of 24 teams will be split into Group A and Group B, each playing on the Bermuda map.</li><li>The top 6 teams from each group will advance to the next round, where the best 12 teams battle for a spot in the finals.</li><li>The top 2 teams from this stage qualify for the grand finale, which will be played on a custom Clash Squad map &#8212; the winner earns the title of Free Fire Champion!</li><li>A volunteer will spectate every match. Teams must take screenshots of match or lobby details after elimination for verification.</li><li>Players must have Level 50+ IDs and play only from the venue. Custom Room ID and password will be given on-spot, and all players must join within 3&#8211;4 minutes of announcement.</li><h3>Coordinaters:</h3><li>Gurumurthy (7795308086)</li><li>Jeevan B P (9731643766)</li><li>Halasiddesh Y S (8073347949)</li><li>Shaheer Hussain (7760627130)</li><li>Ravi (7625075470)</li><li>Chirag (6366478597)</li><li>Nandeesh (9071157552)</li><li>Vikas  H M (6361977057)</li></ul>&quot;,
+        registerLink: &quot;https://forms.gle/EJDoBUFL75yiumfo8&quot;
+      },
+    &quot;event-5&quot;: {
+        title: &quot;BGMI&quot;,
+        image: &quot;https://t3.ftcdn.net/jpg/04/05/84/78/240_F_405847857_kVp2nHoNWMgC9uArQRQg4sQKbf9VPDQ0.jpg&quot;,
+    details: &quot;<p>Entry Fee: &#8377;250</p><h3>Rules &amp; Instructions:</h3><ul><li>Map: Erangle, Sanhok, Miramar</li><li>If you do not join in the given time then its your responsibility.</li><li>.Hackers will not get any kind of refund or prize.</li><li>After match completes, take screenshot of your rank compulsorily.</li><li>If you sit in the wrong slot then you will be disqualified and no refund will be given.</li><li> If you think you are killed by hacker then provide suitable death cam</li><h3>Coordinaters:</h3><li>Y Dhanush (9606625381)</li><li>Karthik K Y (8217507560)</li><li>Vinay M L (8792599258)</li><li>Hemanth L (8867987238)</li><li>Vachan A V (6360215474)</li></ul>&quot;,
+        registerLink: &quot;https://forms.gle/EJDoBUFL75yiumfo8&quot;
+      },
+    &quot;event-6&quot;: {
+        title: &quot;Rangoli&quot;,
+        image: &quot;https://as1.ftcdn.net/v2/jpg/06/56/87/18/1000_F_656871891_xKw2ng0k0IKtkrEL7jqvUGHUEUNfEoz0.jpg&quot;,
+    details: &quot;<p>Entry Fee: &#8377;150</p><h3>Rules &amp; Instructions:</h3><ul><li>.Each team can have a maximum of 2 members.</li><li>Teams will get 45 minutes to complete their Rangoli.</li><li>Participants must bring their own materials like colors and decorative items.</li><li>Only dry materials (powders, flowers, grains) are allowed &#8212; no paints or liquids.</li><li>Rangoli must be made within the allotted space and without pre-drawn outlines.</li><li>Designs can be traditional, modern, or abstract, and will be judged on neatness,creativity, and presentation.</li> <li>The organizers&#8217; decision will be final.</li><h3>Coordinaters:</h3><li>Shalini (7483785699)</li><li>Samha (8618467396)</li><li>Maheshwari (8971258277)</li><li>Shrusti S R (8217438611)</li><li>Chaya R (9108945707)</li><li>Chetana G M (9380915703)</li><li>Aalia Kausar(8123392760)</li><li>Prarthana (7019764411)</li></ul>&quot;,
+        registerLink: &quot;https://forms.gle/EJDoBUFL75yiumfo8&quot;
+      },
+ 	&quot;event-7&quot;: {
+        title: &quot;Chess&quot;,
+        image: &quot;https://t3.ftcdn.net/jpg/03/27/12/92/240_F_327129260_1qSXW7BAUgGtAtMkm700Lo2qYMIbhZRY.jpg&quot;,
+    details: &quot;<p>Entry Fee: &#8377;150</p><h3>Rules &amp; Instructions:</h3><ul><li>.Each match is played between two players on a standard chessboard; white moves first.</li><li>All pieces move according to basic chess rules, and if a player touches a piece,they must move it. </li><li>Each player has 30 minutes to complete all their moves.</li><li>A player wins by checkmate or if the opponent resigns.</li><li>A game is a draw if both players agree or no checkmate is possible.</li><li>.Players must play fairly, and the organizer&#8217;s decision is final in case of disputes.</li><h3>Coordinaters:</h3><li>Bharath H (7676034755)</li><li>Kallesh S R (9019313913)</li><li>Durgaprasad S (9380056199)</li></ul>&quot;,
+        registerLink: &quot;https://forms.gle/EJDoBUFL75yiumfo8&quot;
+      },
+    &quot;event-8&quot;: {
+        title: &quot;Innovision (Start Up/Challenge)&quot;,
+        image: &quot;https://t3.ftcdn.net/jpg/01/90/16/08/240_F_190160872_Xxr5id3xJqkYetm2LkSRKbNSnCSJ33RQ.jpg&quot;,
+    details: &quot;<p>Entry Fee: &#8377;150</p><h3>Rules &amp; Instructions:</h3><ul><li>Present your idea in 8 minutes + 2 min Q and A.</li><li>Original, practical, and creative ideas get extra points</li><li>Team up to maximum 2 members.</li><li>Innovation starts here &#8212; dream it, pitch it, own it!</li><h3>Coordinaters:</h3><li>Farhana (9036637850)</li><li>Mounesh (9391832338)</li><li>Shivaraj Kumar (741135831)</li><li>Shashank (7204967080)</li><li>Sagar S (9740161925)</li><li>Deepika (8310305358)</li><li>Rohith K (7795400149)</li><li>Sagar (9844233379)</li><li>Shama J (6363909618)</li><li>Ramya C M (6360720425)</li></ul>&quot;,
+        registerLink: &quot;https://forms.gle/EJDoBUFL75yiumfo8&quot;
+      },
+    &quot;event-9&quot;: {
+        title: &quot;Debate&quot;,
+        image: &quot;https://t4.ftcdn.net/jpg/05/63/86/47/240_F_563864710_s6nEk0pMvJckg4iDvwenTztkqFiXpCct.jpg&quot;,
+    details: &quot;<p>Entry Fee: &#8377;150</p><h3>Rules &amp; Instructions:</h3><ul><li>Each team has 2 members &#8211; one for and one against the topic.</li><li>Topics will be given one day before the event.</li><li>Each speaker gets 3 minutes to present and 1 minute for rebuttal.</li><li>Judging will be based on content, clarity, confidence, and rebuttal.</li><li>Use of notes or mobiles is not allowed; maintain respectful conduct.</li><li>Judges&#8217; decision will be final</li><h3>Coordinaters:</h3><li>Chaitra K (9113881103)</li><li>Kallesh  S R (9019313913)</li><li>Shivani (8618850121)</li><li>Vinay U (9108835869)</li><li>Hemanth (7338637407)</li><li>Swastik H (7676660611)</li><li>Sameer (7483868246)</li><li>Sinchana T M (9036662430)</li></ul>&quot;,
+        registerLink: &quot;https://forms.gle/EJDoBUFL75yiumfo8&quot;
+      },
+    &quot;event-10&quot;: {
+        title: &quot;Carrom&quot;,
+        image: &quot;https://t4.ftcdn.net/jpg/15/45/95/41/240_F_1545954186_ekejn8wrfiEjyW0cQDcrq2caKzUe6FBc.jpg&quot;,
+    details: &quot;<p>Entry Fee: &#8377;150</p><h3>Rules &amp; Instructions:</h3><ul><li>.Singles and doubles both allowed &#8212; knockout rounds.</li><li>Queen must be covered right after pocketing, else it goes back to the center. </li><li>Pocketing the striker or opponent&#8217;s coin is a foul</li><li>Each player gets 10 seconds per turn &#8212; be quick! </li><li> Boards and coins will be given at the venue</li><li> Play fair, enjoy the game, and don&#8217;t argue with the referee!</li><h3>Coordinaters:</h3><li>Deekshith T P (7760276428)</li><li>Bharath H (7676034755)</li><li>Gagan J E (7795313579)</li><li>Vinayaka P S (8088735921)</li><li>Siri S R (8217438611)</li><li>Vaishnavi S (8904809795)</li><li>Shrushtui M G (6360005116)</li><li>Nayana (9380802628)</li></ul>&quot;,
+        registerLink: &quot;https://forms.gle/EJDoBUFL75yiumfo8&quot;
+      },
+    &quot;event-11&quot;: {
+        title: &quot;LUDO&quot;,
+        image: &quot;https://t4.ftcdn.net/jpg/05/71/84/91/240_F_571849184_4L6cf4Shs99YsUiUGZwgtEkm9cDWaBkN.jpg&quot;,
+    details: &quot;<p>Entry Fee: Singles / Doubles &#8377;100/150</p><h3>Rules &amp; Instructions:</h3><ul><li> Participants must join the Ludo room code on time</li><li>.The game will be played only on the officially announced Ludo app (Ludo King / Ludo Club &#8211; you can choose).</li><li>Internet connection is the responsibility of the participant.</li><li>If a player gets disconnected, the game will continue</li><li>No hacks / mods / unfair play allowed. If found, the participant or team will be disqualified.</li><li>.Follow all default game settings (Classic mode).</li> <li>The player/team reaching home first will be declared the winner</li><li>Event coordinators&#8217; decision is final</li><h3>Coordinaters:</h3><li>Bhuvan S (9902263114)</li><li>Pavanchandu (6362570080)</li><li>Shayan (9945103225)</li><li>Nemith (8861670818)</li><li>Rohith Y (9113507720)</li><li>Lochan Power (8867131455)</li></ul>&quot;,
+        registerLink: &quot;https://forms.gle/EJDoBUFL75yiumfo8&quot;
+      },
+    };
+
+    // Dynamically render event cards
+    Object.keys(eventsData).forEach(eventKey =&gt; {
+      const event = eventsData[eventKey];
+      const card = document.createElement(&#39;div&#39;);
+      card.className = &#39;event-card&#39;;
+      card.innerHTML = `
+        <img alt='${event.title}' src='${event.image}'/>
+        <h3>${event.title}</h3>
+        <p><strong>Entry Fee:</strong> &#8377;${event.details.match(/\&#8377;\d+/) ? event.details.match(/\&#8377;\d+/)[0].replace(&#39;&#8377;&#39;, &#39;&#39;) : &quot;0&quot;}</p>
+        <a class='btn' data-event='${eventKey}'>View Details</a>
+      `;
+      document.querySelector(&#39;.event-list&#39;).appendChild(card);
+    });
+
+    // ... (This is after your card generation loop) ...
+
+    // NEW SCRIPT: Auto-glow on scroll
+    const observerOptions = {
+      root: null, // Use the viewport as the container
+      rootMargin: &#39;0px&#39;,
+      threshold: 0.1 // Trigger when 10% of the card is visible
+    };
+
+    const observerCallback = (entries, observer) =&gt; {
+      entries.forEach(entry =&gt; {
+        if (entry.isIntersecting) {
+          // Add the .in-view class when it enters
+          entry.target.classList.add(&#39;in-view&#39;);
+        } else {
+          // Remove the class when it leaves
+          entry.target.classList.remove(&#39;in-view&#39;);
+        }
+      });
+    };
+
+    const observer = new IntersectionObserver(observerCallback, observerOptions);
+
+    // Tell the observer to watch all the .event-card elements
+    document.querySelectorAll(&#39;.event-card&#39;).forEach(card =&gt; {
+      observer.observe(card);
+    });
+
+
+    // Modal and event details logic
+    // ... (Your existing modal code starts here) ...
+    
+    // Modal and event details logic
+    const modal = document.getElementById(&quot;event-modal&quot;);
+    const eventDetails = document.getElementById(&quot;event-details&quot;);
+    const registerLink = document.getElementById(&quot;register-link&quot;);
+    const closeModal = document.getElementById(&quot;close-modal&quot;);
+
+    document.querySelectorAll(&quot;.btn[data-event]&quot;).forEach(button =&gt; {
+      button.addEventListener(&quot;click&quot;, () =&gt; {
+        const eventKey = button.dataset.event;
+        const event = eventsData[eventKey];
+        if (event) {
+          eventDetails.innerHTML = `<h2>${event.title}</h2>${event.details}`;
+          registerLink.href = event.registerLink;
+          modal.style.display = &quot;flex&quot;;
+        }
+      });
+    });
+
+    closeModal.addEventListener(&quot;click&quot;, () =&gt; {
+      modal.style.display = &quot;none&quot;;
+    });
+
+    window.addEventListener(&quot;click&quot;, e =&gt; {
+      if (e.target === modal) modal.style.display = &quot;none&quot;;
+    });
+    
+    // Add this inside your tag
+window.addEventListener(&#39;load&#39;, () =&gt; {
+  // Vibrate for 200 milliseconds
+  if (window.navigator.vibrate) {
+    window.navigator.vibrate(200);
+  }
+});
+  </script>
+</body>
+</html>
